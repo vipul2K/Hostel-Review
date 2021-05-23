@@ -1,0 +1,195 @@
+h1 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 2em;
+  letter-spacing: -2px;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+  text-align: center;
+}
+.center {
+  text-align: center;
+  border: 2px solid black;
+}
+.ncenter {
+  text-align: center;
+  column-gap: 80px;
+}
+.buttonparent {
+  position: relative;
+}
+.buttonchild {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.align {
+  margin: auto;
+  width: 60%;
+  padding: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.22);
+}
+blockquote {
+  min-height: 1em;
+  padding: 2em 4em;
+  font: 1em/150% sans-serif;
+  position: relative;
+  width: 60%;
+  text-align: center;
+}
+
+blockquote::before,
+blockquote::after {
+  position: absolute;
+  height: 1rem;
+
+  font: 6rem/100% Georgia, "Times New Roman", Times, serif;
+}
+
+blockquote::before {
+  content: "“";
+  top: 0.9rem;
+  left: 0.9rem;
+}
+
+blockquote::after {
+  content: "”";
+  bottom: 0.3rem;
+  right: 0.8rem;
+}
+
+blockquote:lang(fr)::before {
+  content: "«";
+  top: -1.5rem;
+  left: 0.5rem;
+}
+
+blockquote:lang(fr)::after {
+  content: "»";
+  bottom: 2.6rem;
+  right: 0.5rem;
+}
+
+blockquote i {
+  display: block;
+  font-size: 0.8em;
+  margin-top: 1rem;
+  text-style: italic;
+  text-align: right;
+}
+.form-style-8 {
+  font-family: "Open Sans Condensed", arial, sans;
+  width: 500px;
+  padding: 30px;
+  background: #ffffff;
+  margin: 50px auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+.form-style-8 h2 {
+  background: #4d4d4d;
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: white;
+  width: 521px;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  margin: -30px -30px 30px -30px;
+}
+.form-style-8 input[type="text"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 textarea,
+.form-style-8 select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font: Arial, Helvetica, sans-serif;
+  height: 45px;
+}
+.form-style-8 textarea {
+  resize: none;
+  overflow: hidden;
+}
+.contact-style-8 {
+  font-family: "Open Sans Condensed", arial, sans;
+  width: 500px;
+  padding: 30px;
+  background: #ffffff;
+  margin: 50px auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+.contact-style-8 h2 {
+  background: #4d4d4d;
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  margin: -30px -30px 30px -30px;
+}
+.contact-style-8 select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font: Arial, Helvetica, sans-serif;
+  height: 45px;
+}
+
+.db-style-8 {
+  font-family: "Open Sans Condensed", arial, sans;
+  width: 500px;
+  padding: 30px;
+  background: #ffffff;
+  margin: 50px auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+.db-style-8 h2 {
+  background: #4d4d4d;
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  margin: -30px -30px 30px -30px;
+}
+.db-style-8 select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font: Arial, Helvetica, sans-serif;
+  height: 45px;
+}
